@@ -1,0 +1,22 @@
+{
+  "name": "nodeone",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodeone"
+  },
+  "author": "Niraj Vishwakarma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  }
+}
